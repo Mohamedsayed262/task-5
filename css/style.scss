@@ -1,0 +1,137 @@
+.see {
+  padding-top: 200px;
+  padding-bottom: 140px;
+  background: #fff;
+
+  .text-se h5 {
+    color: #4361ee;
+    font-size: 19.4px;
+    font-weight: 500;
+    letter-spacing: 2.91px;
+    padding-bottom: 30px;
+  }
+
+  .text-se h4 {
+    color: #2b2b2b;
+    font-size: 39.8px;
+    font-weight: 600;
+    line-height: 47px;
+    padding-bottom: 30px;
+  }
+  .text-se p {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    row-gap: 30px;
+
+    .text-group .imge img {
+      width: 100%;
+    }
+    .text-group .imge {
+      position: relative;
+    }
+  }
+  .text-group .imge :where(.cs, .to, .we) {
+    padding: 0px 24px;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+  }
+
+  .text-group .imge .cs {
+    background: #ffe1e1;
+  }
+
+  section .text-group .imge .cs h4 {
+    color: #f11;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .text-group .imge .to {
+    background: #d7eeff;
+  }
+
+  .text-group .imge .to h4 {
+    color: #119bff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .text-group .imge .we {
+    background: #f1fff1;
+  }
+
+  .text-group .imge .we h4 {
+    color: #00ce3a;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .text-gro .par {
+    color: #2b2b2b;
+    font-size: 27.6px;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 32px;
+  }
+
+  .text-gro h5 {
+    color: #2b2b2b;
+    font-size: 19.4px;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 20px;
+  }
+  .text-gro p {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 25px;
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .icons .icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  button {
+    display: none;
+    align-items: center;
+    padding: 19px 30px;
+    color: #3a0ca3;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 64px;
+    margin-bottom: 89px;
+    border-radius: 30px;
+    background: #fff;
+    border: 1px solid#3A0CA3;
+  }
+}
+
+@media (max-width: 768px) {
+  .see button {
+    display: flex;
+  }
+}

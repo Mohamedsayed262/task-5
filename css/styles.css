@@ -1,45 +1,7 @@
-/* import-css */
-/* #region import */
-
-/* Fonts-Css */
-@import url(./fonts.css);
-
-/* Grid-System */
-@import url(./grid-s.css);
-
-/* #endregion import */
-
-/* ______Abdo-Mahmoud______ */
-/* #region Abdo-Mahmoud */
-
-/* #endregion Abdo-Mahmoud */
-
-/* _____Mohamed-Essam______ */
-/* #region Mohamed-Essam */
-
-/* #endregion Mohamed-Essam */
-
-/* _______Ahmed-Gad________ */
-/* #region Ahmed-Gad */
-
-/* #endregion Ahmed-Gad */
-
-/* ______Mohamed-Abdo______ */
-/* #region Mohamed-Abdo */
-
-/* #endregion Mohamed-Abdo */
-
-/* _____Mohamed-Sayed______ */
-/* #region Mohamed-Sayed */
 .see {
   padding-top: 200px;
   padding-bottom: 140px;
   background: #fff;
-}
-.see .row {
-  display: flex;
-  align-items: center;
-  row-gap: 30px;
 }
 .see .text-se h5 {
   color: #4361ee;
@@ -62,11 +24,15 @@
   line-height: 26px;
   padding-bottom: 50px;
 }
-
-.see .text-group .imge img {
+.see .row {
+  display: flex;
+  align-items: center;
+  row-gap: 30px;
+}
+.see .row .text-group .imge img {
   width: 100%;
 }
-.see .text-group .imge {
+.see .row .text-group .imge {
   position: relative;
 }
 .see .text-group .imge :where(.cs, .to, .we) {
@@ -84,7 +50,7 @@
 .see .text-group .imge .cs {
   background: #ffe1e1;
 }
-section .text-group .imge .cs h4 {
+.see section .text-group .imge .cs h4 {
   color: #f11;
   font-size: 16px;
   font-weight: 500;
@@ -105,7 +71,6 @@ section .text-group .imge .cs h4 {
   font-size: 16px;
   font-weight: 500;
 }
-
 .see .text-gro .par {
   color: #2b2b2b;
   font-size: 27.6px;
@@ -148,7 +113,7 @@ section .text-group .imge .cs h4 {
   margin-bottom: 89px;
   border-radius: 30px;
   background: #fff;
-  border: 1px solid#3A0CA3;
+  border: 1px solid #3A0CA3;
 }
 
 @media (max-width: 768px) {
@@ -157,9 +122,4 @@ section .text-group .imge .cs h4 {
   }
 }
 
-/* #endregion Mohamed-Sayed */
-
-/* _____Mahmoud-Magdy______ */
-/* #region Mahmoud-Magdy */
-
-/* #endregion Mahmoud-Magdy */
+/*# sourceMappingURL=styles.css.map */
